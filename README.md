@@ -1,6 +1,16 @@
 # JavaScript Logging
 
-## Introduction
+## Overview
+
+In this lesson we'll be looking at the many ways to log with Javascript 
+
+
+## Objectives
+
+1. Explore the `console` object
+2. Use different logging methods
+
+## Logging 
 
 Journals give us a window into the past, helping us discern what happened when and what the outcome was. We keep journals, traditionally, by writing things down with a timestamp (which could just be a date).
 
@@ -10,12 +20,7 @@ Logging lets us revisit our application as if it was running. It's a useful tool
 
 In this lesson, we're going to look at ways to log with JavaScript. Let's dive in!
 
-![dive in](http://i.giphy.com/LlPGmmhr0GcKs.gif)
-
-## Objectives
-
-1. Explore the `console` object
-2. Use different logging methods
+![dive in](https://i.giphy.com/LlPGmmhr0GcKs.gif)
 
 ## `console`
 
@@ -25,11 +30,11 @@ Open the console in your browser of choice.
 
 ![clear console](https://curriculum-content.s3.amazonaws.com/skills-based-js/clear_console.png)
 
-Alternatively, you can press "command + K" or "ctrl + L" to make your console look fresh and new.
+Alternatively, you can press `cmd` + `k`" or `ctrl` + `l` to make your console look fresh and new.
 
 Now enter `console` in the console (that's a little funky to say, huh?) and press "enter". In Chrome, you'll see something like
 
-![console](https://curriculum-content.s3.amazonaws.com/skills-based-js/console.png)
+Object {}
 
 This is all probably a bit mystifying at the moment. You can explore that console thing (psst: it's an _object_, which we'll learn more about later), but feel free to move on to learn about how we use it.
 
@@ -104,5 +109,6 @@ As with `console.error()`, we use `console.warn()` to indicate in our log histor
 ## Resources
 
 - [MDN: Console](https://developer.mozilla.org/en-US/docs/Web/API/Console)
+- [Mastering The Developer Tools Console](http://blog.teamtreehouse.com/mastering-developer-tools-console)
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-logging'>JavaScript Logging</a> on Learn.co and start learning to code for free.</p>
